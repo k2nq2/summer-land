@@ -1,0 +1,64 @@
+.c6{
+    padding-top: 6rem;
+}
+.c6-subtitle{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 2rem;
+line-height: 125%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+margin-top: 3.6rem;
+}
+.c6-wrap{
+    width: 100%;
+    height: 41rem;
+    background-image: url(../../images/c6-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 3rem;
+    padding-top: 5.4rem;
+}
+.c6-wrap h2{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 2rem;
+line-height: 125%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.c6-item{
+    display: flex;
+    padding-left: 2.8rem;
+    padding-top: 6.7rem;
+}
+.c6-place{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 179%;
+text-align: center;
+color: #4d4837;
+}
+.c6-price{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 3.4rem;
+line-height: 74%;
+text-align: center;
+color: #4d4837;
+}
+.c6-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.1rem;
+line-height: 100%;
+text-align: center;
+color: #4d4837;
+}
+.c6-res{
+    text-align: center;
+    margin-top: 2.1rem;
+}
