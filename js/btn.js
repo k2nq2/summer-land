@@ -16,9 +16,11 @@ window.onscroll = function showHeader() {
     let btnBottom = headerBtn.getBoundingClientRect().bottom;
 
     // Перевіряємо, чи елемент .btn вийшов за верхній край вьюпорта
-    if (btnBottom < 0) {
+   if (btnBottom < 0) {
         fixedBtn.style.bottom = "0";
+        fixedBtn.style.opacity = "1";
     } else {
         fixedBtn.style.bottom = "-20rem";
+        fixedBtn.style.opacity = "0";
     }
 }
